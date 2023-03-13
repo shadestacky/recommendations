@@ -5,7 +5,7 @@ h1,h2 {
 h3 {
     padding-left: 20px;
 }
-div {
+div.main {
     margin: 20px;
     margin-left: 5%;
     margin-right: 5%;
@@ -13,6 +13,17 @@ div {
 div.contents {
     margin: 15px;
     margin-left: 7%;
+}
+div.code {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+code {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }
 
 body {
@@ -30,12 +41,57 @@ blockquote {
 p {
     text-indent: 50px;
 }
+span.tab {
+    display: inline-block;
+    margin-left: 50px;
+}
 
 p.cite {
     text-align: right;
     margin-right: 4%;
     margin-top: 0px;
     margin-bottom: 5px;
+}
+
+img.python {width: 350px; border: 3px solid black;}
+
+img.js {width: 250px; border: 3px solid black;}
+
+img.cpp {width: 250px;}
+
+img.csharp {width: 250px;}
+
+img.java {width: 350px; background-color: white; border: 3px solid black;}
+
+img.swift {width: 250px; border: 3px solid black;}
+
+img.kotlin {width: 250px; background-color: white; border: 3px solid black;}
+
+img.langs {
+    width: 450px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+    width: 480px;
+  }
+
+table {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td, tr {
+    border: 2px solid black;
+    border-collapse: collapse;
 }
 #myBtn {
     display: none;
